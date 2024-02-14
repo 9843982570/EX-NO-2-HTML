@@ -1,0 +1,16 @@
+
+
+@keyframes circle
+    {
+        0% {background-color: red;border-radius: 0%;}
+        25%{background-color: yellow;border-radius: 300%;}
+        50%{background-color: blue;border-radius: 300%;}
+        75%{background-color: green;border-radius: 300%;}
+        100%{background-color: pink;border-radius: 0%;}
+    }
+    
+    width:200px;
+    height: 200px;
+    border-radius: 300%;
+    background: red;
+    transition: width 5s;
